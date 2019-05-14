@@ -17,4 +17,4 @@ class Config(object):
                 DATAPATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data')
             else:
                 print("Unsupported/Unknown OS: ", platform.system, "please set DATAPATH")
-        self.DATAPATH = 'input'
+        self.DATAPATH = '../input'
